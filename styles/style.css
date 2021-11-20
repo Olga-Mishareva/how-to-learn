@@ -7,9 +7,10 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000000;
 }
 
-/*-----  HEADER  -----*/
+/*-----  HEADER  ---------------------------------------------------------*/
 
 .logo {
   position: absolute;
@@ -81,9 +82,9 @@
 }
 
 
-/*-----------  MAIN  ----------*/
+/*-----------  MAIN  ------------------------------------------------------*/
 
-/*-----  DESCRIOPTION  -----*/
+/*-----  DESCRIOPTION  -------------------------------------------------*/
 
 
 .two-columns {
@@ -126,7 +127,7 @@
 }
 
 
-/*-----  DIGITS  -----*/
+/*-----  DIGITS  ------------------------------------------------------*/
 
 
 .digits {
@@ -142,7 +143,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .section-subtitle {
@@ -152,7 +152,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .table {
@@ -161,18 +160,12 @@
   flex-flow: row wrap;
   justify-content: space-between;
   width: 1100px;
-  border: 1px solid red;
   list-style: none;
 }
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  border: 1px solid red;
-}
-
-.table__cell_theme_light {
-  color: #000000;
 }
 
 .table__heading {
@@ -194,14 +187,63 @@
 }
 
 
+/*-----  FEYNMAN  ----------------------------------------------------- */
+
+
+.feynman {
+  height: 100vh;
+  min-height: 750px;
+  background-color: #f2f2f2;
+  display: flex;
+  /* justify-content: center; */
+  flex-flow: column wrap;
+  align-items: center;
+  position: relative;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0;
+  padding-top: 100px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.feynman__subtitle{
+  margin: 0;
+  padding-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__illustration {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+}
 
 
 
-
-/*-----  FEYMAN  -----*/
-
-
-/*-----  KAUFMAN  -----*/
+/*-----  KAUFMAN  -------------------------------------------------------*/
 
 
 /* и элемента с модификатором вида ключ-значение */
