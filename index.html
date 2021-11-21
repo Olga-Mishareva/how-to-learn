@@ -13,11 +13,11 @@
   <div class="page">
 
     <header class="header">
-      <img src="./images/logo_place_header.svg" alt="Логотип" class="logo logo_place_header">
+      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип">
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни? <a href="#" class="header__link">Узнать →</a></p>
-      <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение дети" >
+      <h6 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
+        жизни? <a href="#" class="header__link">Узнать &rarr;</a></h6>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение дети с собакой">
       <div class="header__square-pic"></div>
     </header>
 
@@ -33,7 +33,8 @@
               дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно
               уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
+              сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </div>
       </section>
@@ -41,7 +42,7 @@
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <h4 class="section-subtitle">Про учёбу и мозг</h4>
-        <ul class="table table_theme_light">
+        <ul class="table list">
           <li class="table__cell">
             <h5 class="table__heading">86 миллиардов</h5>
             <p class="table__text">Число нейронов в мозге человека</p>
@@ -82,7 +83,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <a href="#" class="feynman__link">Подробнее →</a>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
         <img class="feynman__illustration" src="./images/feynman.png" alt="Изображение портрет Фейнмана">
       </section>
 
@@ -90,7 +91,7 @@
         <img class="kaufman__triagle" src="./images/kaufman-triangle.svg" alt="Изображене на фоне синий треугольник">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h4 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h4>
-        <ul class="table table_theme_dark">
+        <ul class="table table_theme_dark list">
           <li class="table__cell table__cell_theme_dark">
             <h5 class="table__heading">1</h5>
             <p class="table__text">Выберите привлекательный проект.</p>
@@ -136,8 +137,35 @@
     </main>
 
     <footer class="footer">
-
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип">
+          <div class="footer__autor">&copy 2021 Ольга Мишарева</div>
+        </div>
+        <div class="footer__column_content_info">
+          <div class="footer__column-heading">О Практикуме</div>
+          <nav>
+            <ul class="footer__column-links list">
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column_content_social">
+          <div class="footer__column-heading">Соцсети</div>
+          <ul class="footer__column-links list">
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg"
+                  alt="Логотип Фейсбука">Facebook</a></li>
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg"
+                  alt="Логотип ВКонтакте">ВКонтакте</a></li>
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg"
+                  alt="Логотип Инстаграма">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
+
   </div>
 </body>
 
