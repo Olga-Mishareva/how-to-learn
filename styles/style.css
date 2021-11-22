@@ -187,14 +187,13 @@
 }
 
 .table__text {
-  margin: 0;
+  margin: 0 0 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.table__text_sign {
-  margin-top: 20px;
+.table__text:last-child {
   margin-bottom: 0;
 }
 
@@ -203,7 +202,7 @@
 
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
   flex-flow: column wrap;
@@ -264,9 +263,11 @@
   padding-bottom: 90px;
 }
 
-.kaufman__triagle {
+.kaufman::before {
+  content: "";
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   top: 0;
   right: -210px;
@@ -301,6 +302,7 @@
 
 .footer {
   min-height: 350px;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
   display: flex;
@@ -317,7 +319,6 @@
 
 /* общий флекс-контейнер, grow=0, shrink=1, flex-basis=50% */
 .footer__column_content_copyright {
-  /* width: 50%; */
   display: flex;
   flex: 0 1 50%;
   flex-direction: column;
