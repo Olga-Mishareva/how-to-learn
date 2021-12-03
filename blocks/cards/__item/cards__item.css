@@ -4,7 +4,7 @@
   align-items: center;
   width: 240px;
   /* border: 1px solid red; */
-  margin: 0 100px 60px 0;
+  margin: 60px 100px 0 0;
 }
 
 .cards__item:nth-child(3) {
@@ -12,12 +12,5 @@
 }
 
 
-.cards__item:nth-child(4) {
-  margin-bottom: 0;
-}
-
-.cards__item:nth-child(5) {
-  margin-bottom: 0;
-}
 
 
