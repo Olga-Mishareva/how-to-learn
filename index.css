@@ -2,7 +2,7 @@
 
 @import url(./blocks/page/page.css);
 @import url(./blocks/page/__list/page__list.css);
-@import url(./blocks/page/section-padding/page__section-padding.css);
+@import url(./blocks/page/__title-padding/page__title-padding.css);
 
 /* ----- HEADER ----- */
 
