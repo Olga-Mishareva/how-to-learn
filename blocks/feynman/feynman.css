@@ -1,6 +1,7 @@
 .feynman {
   min-height: 890px;
   background-color: #f2f2f2;
+  padding-top: 100px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
