@@ -227,6 +227,28 @@
         </ul>
       </section>
 
+      <section class="feedback">
+        <form class="form" action="#">
+          <fieldset class="form__input-container">
+            <label for="u-name">Ваше имя</label>
+            <input type="text" id="u-name" name="u-name" class="form__item form__item_get_name">
+
+            <label for="email">Ваш e-mail</label>
+            <input type="email" id="email" name="email" class="form__item form__item_get_email">
+
+            <label for="grade">Было полезно?</label>
+            <input type="range" id="grade" name="grade" value="5" class="form__item form__item_get_grade" min="1" max="5">
+
+            <label for="feeback">Напишите немного подробнее</label>
+            <textarea id="feeback" name="feedback" class="form__item form__item_get_feedback"></textarea>
+          </fieldset>
+          <fieldset class="form__handlers">
+            <input type="submit" name="submil-btn" value="Отправить" class="form__button">
+            <input type="reset" name="reset-btn" value="Сбросить" class="form__button">
+          </fieldset>
+        </form>
+      </section>
+
     </main>
 
     <footer class="footer">

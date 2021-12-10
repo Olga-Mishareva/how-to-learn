@@ -97,6 +97,19 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 
+/* ----- FEEDBACK ----- */
+
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_get/form__item_get_name.css);
+@import url(../blocks/form/__item/_get/form__item_get_email.css);
+@import url(../blocks/form/__item/_get/form__item_get_grade.css);
+@import url(../blocks/form/__item/_get/form__item_get_feedback.css);
+@import url(../blocks/form/__handlers/form__handlers.css);
+@import url(../blocks/form/__button/form__button.css);
+
 /* ----- FOOTER ----- */
 
 @import url(../blocks/footer/footer.css);
