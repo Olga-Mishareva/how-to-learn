@@ -24,7 +24,7 @@
 2. Добавить форму, через которую пользователи могли бы отправить комментарий
 
 
-[### Посмотреть](https://olga-mishareva.github.io/how-to-learn/)
+[Посмотреть проект](https://olga-mishareva.github.io/how-to-learn/)
 
 
 
