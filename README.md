@@ -18,7 +18,7 @@ A one-page landing about methods of effective learning.
 - Iframe
 
 
-[Посмотреть проект](https://olga-mishareva.github.io/how-to-learn/)
+[Show me](https://olga-mishareva.github.io/how-to-learn/)
 
 
 
